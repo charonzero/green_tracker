@@ -1,0 +1,10 @@
+<network_security_config>
+    <base-config clearttextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    <domain-config clearttextTrafficPermitted="true">
+        <domain includeSubdomains="true">172.23.70.152</domain>
+    </domain-config>
+</network_security_config>
